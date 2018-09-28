@@ -12,7 +12,7 @@ printf "${LINE}" "${GREEN}                  |__/                   ${NC}"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 if [[ ! ${XDG_CONFIG_HOME+x} ]]; then XDG_CONFIG_HOME="$HOME/.config"; fi
-mkdir -p $XDG_CONFIG_HOME/{compton,gtk-3.0,ranger}
+mkdir -p $XDG_CONFIG_HOME/{i3,compton,gtk-3.0,ranger}
 
 
 ## Core
