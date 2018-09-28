@@ -2,8 +2,8 @@
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
 [user]
-	name = 
-	email = 
+	name = nabadger
+	email = nbadger@mintel.com
 [push]
 	default = simple
 [merge]
