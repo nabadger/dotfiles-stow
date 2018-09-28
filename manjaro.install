@@ -12,7 +12,6 @@ printf "${LINE}" "${GREEN}                  |__/                   ${NC}"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 if [[ ! ${XDG_CONFIG_HOME+x} ]]; then XDG_CONFIG_HOME="$HOME/.config"; fi
-mkdir $HOME/{tmp,zsh}
 mkdir -p $XDG_CONFIG_HOME/{compton,gtk-3.0,ranger}
 
 
@@ -43,12 +42,16 @@ echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf
 ## THEMING
 sudo pacman -Sy --noconfirm numix-gtk-theme xcursor-vanilla-dmz
 yay -Sy --noconfirm numix-circle-arc-icons-git
-ln -sf $DIR/gtk/gtk3.css $XDG_CONFIG_HOME/gtk-3.0/gtk.css
-ln -sf $DIR/gtk/gtkrc-2.0 $HOME/.gtkrc-2.0
+# ln -sf $DIR/gtk/gtk3.css $XDG_CONFIG_HOME/gtk-3.0/gtk.css
+# ln -sf $DIR/gtk/gtkrc-2.0 $HOME/.gtkrc-2.0
 
 
 ## Shell/ZSH
 sudo pacman -Sy --noconfirm zsh
 ln -sf $DIR/profile $HOME/.profile
-ln -sf $DIR/zsh/zprofile $HOME/.zprofile
-ln -sf $DIR/zsh/zshrc $HOME/.zshrc
+ln -sf $DIR/zprezto/runcoms/zprofile $HOME/.zprofile
+ln -sf $DIR/zprezto/runcoms/zshrc $HOME/.zshrc
+ln -sf $DIR/zprezto/runcoms/zlogin $HOME/.zlogin
+ln -sf $DIR/zprezto/runcoms/zlogout $HOME/.zlogout
+ln -sf $DIR/zprezto/runcoms/zshenv $HOME/.zshenv
+ln -sf $DIR/zprezto/runcoms/zpreztorc $HOME/.zpreztorc
