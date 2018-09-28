@@ -1,0 +1,17 @@
+*~
+._*
+*.DS_Store
+
+*.swp
+
+.smbdelete*
+
+.idea/
+
+\#*\#
+.projectile
+
+.ac-php-conf.json
+_ide_helper.php
+.phpstorm.meta.php
+

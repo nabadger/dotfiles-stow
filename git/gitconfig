@@ -1,0 +1,10 @@
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+[user]
+	name = 
+	email = 
+[push]
+	default = simple
+[merge]
+	log = 100
