@@ -3,7 +3,7 @@
 	autocrlf = input
 [user]
 	name = nabadger
-	email = nbadger@mintel.com
+	email = 
 [push]
 	default = simple
 [merge]
