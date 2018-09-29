@@ -20,6 +20,8 @@ ln -sf $DIR/Xresources $HOME/.Xresources
 ln -sf $DIR/git/gitignore_global $HOME/.gitignore_global
 ln -sf $DIR/git/gitconfig $HOME/.gitconfig
 ln -sf $DIR/config/ranger_rc.conf $XDG_CONFIG_HOME/ranger/rc.conf
+ln -sf $DIR/config/chrome-flags.conf $XDG_CONFIG_HOME/chrome-flags.conf
+ln -sf $DIR/config/chromium-flags.conf $XDG_CONFIG_HOME/chromium-flags.conf
 
 ## i3wm
 ln -sf $DIR/i3/compton.conf $XDG_CONFIG_HOME/compton/compton.conf
