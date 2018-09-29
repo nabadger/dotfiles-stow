@@ -33,3 +33,7 @@ ln -sf $DIR/zprezto/runcoms/zlogin $HOME/.zlogin
 ln -sf $DIR/zprezto/runcoms/zlogout $HOME/.zlogout
 ln -sf $DIR/zprezto/runcoms/zshenv $HOME/.zshenv
 ln -sf $DIR/zprezto/runcoms/zpreztorc $HOME/.zpreztorc
+
+## Setup wallpapers
+mkdir -p $HOME/Pictures/wallpapers && cp ./wallpapers/* $HOME/Pictures/wallpapers
+

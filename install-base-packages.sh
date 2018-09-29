@@ -13,4 +13,5 @@ sudo pacman -Sy --noconfirm \
 
 yay -Sy --noconfirm \
 	powerline-fonts-git \
-	ttf-fira-code ttf-symbola
+	ttf-fira-code ttf-symbola \
+	urxvt-resize-font-git
