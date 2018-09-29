@@ -4,7 +4,6 @@ echo "Installing packages"
 
 sudo pacman -Sy --noconfirm \
 	ebtables \
-	i3blocks \
 	libvirt \
 	qemu-headless \
 	rofi \
@@ -21,6 +20,7 @@ yay -Sy --noconfirm \
        	docker \
 	docker-machine-driver-kvm2 \
 	google-cloud-sdk \
+	flameshot \
 	kubectl-bin \
        	minikube \
 	pass \
@@ -30,6 +30,7 @@ yay -Sy --noconfirm \
 	pwgen \
 	python-pipsi \
 	siege \
+	ranger \
 	ssss \
 	terraform \
 	terragrunt-bin \

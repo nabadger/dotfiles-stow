@@ -18,7 +18,6 @@ ln -sf $DIR/config/chromium-flags.conf $XDG_CONFIG_HOME/chromium-flags.conf
 ## i3wm
 ln -sf $DIR/i3/compton.conf $XDG_CONFIG_HOME/compton/compton.conf
 ln -sf $DIR/i3/config $XDG_CONFIG_HOME/i3/config
-ln -sf $DIR/i3/i3blocks.conf $XDG_CONFIG_HOME/i3/i3blocks.conf
 
 ## THEMING
 # ln -sf $DIR/gtk/gtk3.css $XDG_CONFIG_HOME/gtk-3.0/gtk.css
