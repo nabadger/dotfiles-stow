@@ -1,14 +1,6 @@
 #!/usr/bin/env bash
 
-GREEN=$(tput setaf 2)
-NC=$(tput sgr0)
-LINE="%s%s\n"
-printf "${LINE}" "${GREEN} __  __              _                   ${NC}"      "      _       _    __ _ _           "
-printf "${LINE}" "${GREEN}|  \\/  | __ _ _ __  (_) __ _ _ __ ___    ${NC}"     "   __| | ___ | |_ / _(_) | ___  ___ "
-printf "${LINE}" "${GREEN}| |\\/| |/ _\` | '_ \\ | |/ _\` | '__/ _ \\   ${NC}" "  / _\` |/ _ \\| __| |_| | |/ _ \\/ __|"
-printf "${LINE}" "${GREEN}| |  | | (_| | | | || | (_| | | | (_) |  ${NC}"      " | (_| | (_) | |_|  _| | |  __/\\__ \\"
-printf "${LINE}" "${GREEN}|_|  |_|\\__,_|_| |_|/ |\\__,_|_|  \\___/   ${NC}"   "(_)__,_|\\___/ \\__|_| |_|_|\\___||___/"
-printf "${LINE}" "${GREEN}                  |__/                   ${NC}"
+printf "Configuring dotfile symlinks"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 if [[ ! ${XDG_CONFIG_HOME+x} ]]; then XDG_CONFIG_HOME="$HOME/.config"; fi
