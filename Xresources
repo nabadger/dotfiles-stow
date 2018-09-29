@@ -1,16 +1,19 @@
 ! https://wiki.archlinux.org/index.php/Rxvt-unicode
 ! rxvt-unicode-256color was removed from [community], use rxvt-unicode from [archlinuxfr] instead (seems newer than [extra])
 ! urxvt supports search with M-s
-URxvt.font: xft:Inconsolata-16,xft:WenQuanYi Zen Hei Mono
-URxvt.scrollBar_right: True
-Rxvt.jumpScroll: True
-Rxvt.skipScroll: True
-URxvt.preeditType: OnTheSpot
-URxvt.scrollTtyOutput: False
-URxvt.scrollWithBuffer: True
-URxvt.scrollTtyKeypress: True
+URxvt*font:                 xft:Inconsolata\ for\ Powerline:pixelsize=27:minspace=False, xft:DejaVu Sans:pixelsize=18
+
+URxvt.scrollBar: False
 URxvt.fading: 40
 URxvt.saveLines: 1000000
+
+Xft.dpi: 192
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
 
 ! Colors taken from http://ezyang.scripts.mit.edu/blog/2010/01/rxvt-unicode-for-gnome-terminal-refugees/
 URxvt*background: black
@@ -44,10 +47,9 @@ URxvt*color15 : #EEEEEC
 ! Ctrl-select to copy text into clipboard
 ! Another trick: Shift-click to move around
 ! And some scripts from http://github.com/muennich/urxvt-perls, https://bbs.archlinux.org/viewtopic.php?id=102671
-URxvt.perl-lib: /home/wh5a/.urxvt
 
 ! man urxvtperl
-URxvt.perl-ext-common: default,-option-popup,matcher,-selection-popup,xim-onthespot,ctrl-clipboard,url-select,clipboard
+URxvt.perl-ext-common: default,url-select,ctrl-clipboard,clipboard,resize-font
 URxvt.urlLauncher: chromium
 URxvt.matcher.rend.0: fg8 Uline Italic
 ! M-c copy to clipboard,  C-Ins paste from clipboard
@@ -55,7 +57,6 @@ URxvt.keysym.M-c:   perl:clipboard:copy
 URxvt.keysym.C-Insert:   perl:clipboard:paste
 ! M-u to start navigating URLs, and j/k to move between them.
 URxvt.keysym.M-u: perl:url-select:select_next
-!URxvt.colorUL: #86a2be
 ! Right click to launch the URL
 URxvt.matcher.button: 3
 
@@ -64,8 +65,8 @@ URxvt.iso14755: False
 ! The default TERM value rxvt-unicode-256color is not available under /usr/share/terminfo/r/ on older systems
 URxvt.termName: rxvt-256color
 
-Xcursor.theme: whiteglass
-Xcursor.size: 25
+! Resize font keybindings
+URxvt.keysym.C-Down:  resize-font:smaller
+URxvt.keysym.C-Up:    resize-font:bigger
 
-!Emacs.useXIM: false
-!Emacs.font: Inconsolata-14
+Xcursor.size: 10
