@@ -1,22 +1,32 @@
 #!/usr/bin/env bash
 
-echo "Installing developer packages"
+echo "Installing packages"
 
-sudo pacman -Sy --noconfirm 
+sudo pacman -Sy --noconfirm \
 	ebtables \
+	i3blocks \
 	libvirt \
-	qemu-headless 
+	qemu-headless \
+	rofi \
+	sysstat \
+	the_silver_searcher \
+	xtitle \
+       	yay \
+	zsh
 
 yay -Sy --noconfirm \
 	chromium \
+	ccid \
 	dnsmasq \
        	docker \
 	docker-machine-driver-kvm2 \
 	google-cloud-sdk \
 	kubectl-bin \
        	minikube \
-	pavucontrol \
 	pass \
+	pavucontrol \
+	pcsclite \
+	powerline-fonts-git \
 	pwgen \
 	python-pipsi \
 	siege \
@@ -24,9 +34,9 @@ yay -Sy --noconfirm \
 	terraform \
 	terragrunt-bin \
 	tflint \
+	ttf-fira-code ttf-symbola \
+	urxvt-resize-font-git \
 	visual-studio-code-bin
 
-pipsi install ansible          
 
-# TODO:
-# bluetooth/pulseaudio
+pipsi install ansible          
