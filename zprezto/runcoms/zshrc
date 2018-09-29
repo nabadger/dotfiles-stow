@@ -35,6 +35,6 @@ prompt pure
 
 source .zprezto/modules/autosuggestions/init.zsh
 
-
-# added by pipsi (https://github.com/mitsuhiko/pipsi)
-export PATH="/home/nb/.local/bin:$PATH"
+# Customize exports
+export PATH="$HOME/.local/bin:$PATH"
+export BROWSER="/usr/bin/chromium"
