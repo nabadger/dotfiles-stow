@@ -5,7 +5,8 @@ echo "Installing developer packages"
 yay -Sy --noconfirm \
 	chromium \
        	docker \
-	kubectl-bin
+	google-cloud-sdk \
+	kubectl-bin \
        	minikube \
 	pavucontrol \
 	python-pipsi \
@@ -15,12 +16,7 @@ yay -Sy --noconfirm \
 	tflint \
 	visual-studio-code-bin
 
+pipsi install ansible          
+
 # TODO:
 # bluetooth/pulseaudio
-
-### Disable beep/bell
-sudo rmmod pcspkr
-echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf
-
-
-
