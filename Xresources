@@ -16,8 +16,13 @@ Xft.antialias: 1
 Xft.rgba: rgb
 
 ! Colors taken from http://ezyang.scripts.mit.edu/blog/2010/01/rxvt-unicode-for-gnome-terminal-refugees/
-URxvt*background: black
+! URxvt*background: black
 URxvt*foreground: white
+
+! Enable fancy transparency
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/c800
+
 ! black
 URxvt*color0  : #2E3436
 URxvt*color8  : #555753
@@ -70,3 +75,5 @@ URxvt.keysym.C-Down:  resize-font:smaller
 URxvt.keysym.C-Up:    resize-font:bigger
 
 Xcursor.size: 10
+
+
