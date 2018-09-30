@@ -1,5 +1,8 @@
 # dotfiles
 
+Thsee scripts configure my [arch-i3-manjaro](https://manjaro.org/category/community-editions/i3) install.
+
+
 ```
 git clone git@github.com:nabadger/dotfiles $HOME/dotfiles
 cd $HOME/dotfiles
