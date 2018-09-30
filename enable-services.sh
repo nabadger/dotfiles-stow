@@ -7,5 +7,5 @@ sudo systemctl enable virtlogd.service --now
 sudo systemctl enable docker --now
 sudo systemctl enable pcscd.service --now
 
-sudo virsh net-start default
-sudo virsh net-autostart default
+sudo virsh net-start minikube-net
+sudo virsh net-autostart minikube-net
