@@ -38,6 +38,9 @@ mkdir -p $HOME/.screenlayout
 ln -sf $DIR/screenlayout/dual-monitor.sh $HOME/.screenlayout/dual-monitor.sh
 ln -sf $DIR/screenlayout/laptop-only.sh $HOME/.screenlayout/laptop-only.sh
 
+## Setup gnupg
+ln -sf $DIR/gnupg/gpg-agent.conf $HOME/.gnupg/gpg-agent.conf
+ln -sf $DIR/gnupg/scdaemon.conf $HOME/.gnupg/scdaemon.conf
 
 ## Setup wallpapers
 mkdir -p $HOME/Pictures/wallpapers && cp ./wallpapers/* $HOME/Pictures/wallpapers
