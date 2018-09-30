@@ -49,16 +49,16 @@ URxvt*color15 : #EEEEEC
 ! And some scripts from http://github.com/muennich/urxvt-perls, https://bbs.archlinux.org/viewtopic.php?id=102671
 
 ! man urxvtperl
-URxvt.perl-ext-common: default,url-select,ctrl-clipboard,clipboard,resize-font
+URxvt.perl-ext-common: default,matcher,url-select,ctrl-clipboard,clipboard,resize-font
 URxvt.urlLauncher: chromium
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
 URxvt.matcher.rend.0: fg8 Uline Italic
 ! M-c copy to clipboard,  C-Ins paste from clipboard
 URxvt.keysym.M-c:   perl:clipboard:copy
 URxvt.keysym.C-Insert:   perl:clipboard:paste
 ! M-u to start navigating URLs, and j/k to move between them.
 URxvt.keysym.M-u: perl:url-select:select_next
-! Right click to launch the URL
-URxvt.matcher.button: 3
 
 ! Disable Ctrl-Shift key combo
 URxvt.iso14755: False
