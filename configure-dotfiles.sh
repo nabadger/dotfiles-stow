@@ -34,7 +34,10 @@ ln -sf $DIR/zprezto/runcoms/zshenv $HOME/.zshenv
 ln -sf $DIR/zprezto/runcoms/zpreztorc $HOME/.zpreztorc
 
 ## Setup screenlayout
-ln -sf $DIR/screenlayout $HOME/.screenlayout
+mkdir -p $HOME/.screenlayout
+ln -sf $DIR/screenlayout/dual-monitor.sh $HOME/.screenlayout/dual-monitor.sh
+ln -sf $DIR/screenlayout/laptop-only.sh $HOME/.screenlayout/laptop-only.sh
+
 
 ## Setup wallpapers
 mkdir -p $HOME/Pictures/wallpapers && cp ./wallpapers/* $HOME/Pictures/wallpapers
