@@ -37,6 +37,7 @@ yay -Sy --noconfirm \
 	tflint \
 	ttf-fira-code ttf-symbola \
 	urxvt-resize-font-git \
+	virt-manager \
 	visual-studio-code-bin
 
 
