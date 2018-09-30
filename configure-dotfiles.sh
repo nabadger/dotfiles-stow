@@ -4,7 +4,7 @@ printf "Configuring dotfile symlinks"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 if [[ ! ${XDG_CONFIG_HOME+x} ]]; then XDG_CONFIG_HOME="$HOME/.config"; fi
-mkdir -p $XDG_CONFIG_HOME/{i3,compton,gtk-3.0,ranger}
+mkdir -p $XDG_CONFIG_HOME/{i3,i3status,compton,gtk-3.0,ranger}
 
 
 ## Core
@@ -18,6 +18,7 @@ ln -sf $DIR/config/chrome-flags.conf $XDG_CONFIG_HOME/chromium-flags.conf
 ## i3wm
 ln -sf $DIR/i3/compton.conf $XDG_CONFIG_HOME/compton/compton.conf
 ln -sf $DIR/i3/config $XDG_CONFIG_HOME/i3/config
+ln -sf $DIR/i3status/config $XDG_CONFIG_HOME/i3status/config
 
 ## THEMING
 # ln -sf $DIR/gtk/gtk3.css $XDG_CONFIG_HOME/gtk-3.0/gtk.css
