@@ -4,7 +4,7 @@ printf "Configuring dotfile symlinks"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 if [[ ! ${XDG_CONFIG_HOME+x} ]]; then XDG_CONFIG_HOME="$HOME/.config"; fi
-mkdir -p $XDG_CONFIG_HOME/{i3,i3status,compton,gtk-3.0,ranger}
+mkdir -p $XDG_CONFIG_HOME/{i3,i3status,compton,ranger}
 
 
 ## Core
@@ -23,7 +23,6 @@ ln -sf $DIR/i3status/config $XDG_CONFIG_HOME/i3status/config
 ## THEMING
 # ln -sf $DIR/gtk/gtk3.css $XDG_CONFIG_HOME/gtk-3.0/gtk.css
 # ln -sf $DIR/gtk/gtkrc-2.0 $HOME/.gtkrc-2.0
-
 
 ## Shell/ZSH
 ln -sf $DIR/profile $HOME/.profile
