@@ -32,6 +32,7 @@ yay -Sy --noconfirm \
 	siege \
 	ranger \
 	ssss \
+	stress \
 	terraform \
 	terragrunt-bin \
 	tflint \
