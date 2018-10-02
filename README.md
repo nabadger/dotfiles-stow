@@ -19,7 +19,8 @@ All the packages that I use, installed via `pacman` or `yay`
 
 ## configure-dotfiles.sh
 
-Home directory dotfile configuration, things like `.zshrc` (via [prezto](https://github.com/sorin-ionescu/prezto)), and `.Xresources`
+Uses stow to symlink 
+
 ## configure-systemwide.sh
 
 - Requires sudo 

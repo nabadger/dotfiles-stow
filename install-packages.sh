@@ -37,6 +37,7 @@ yay -Sy --noconfirm \
 	terragrunt-bin \
 	tflint \
 	ttf-fira-code ttf-symbola \
+	stow \
 	urxvt-resize-font-git \
 	virt-manager \
 	visual-studio-code-bin

@@ -22,7 +22,7 @@ c_magenta_l="b294bb"
 c_cyan_d="8abeb7"
 c_cyan_l="8abeb7"
 
-tod=`~/dotfiles/i3/scripts/timeofday.sh`
+tod=`~/config/i3/scripts/timeofday.sh`
 
 # Uncomment a tod to test
 # tod="Late Night"

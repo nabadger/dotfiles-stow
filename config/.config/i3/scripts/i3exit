@@ -5,7 +5,7 @@ lock() {
 
 case "$1" in
     lock)
-        $HOME/dotfiles/i3/scripts/lock
+        $HOME/.config/i3/scripts/lock
         exit 0
         ;;
     logout)
