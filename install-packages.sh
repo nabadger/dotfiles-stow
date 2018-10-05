@@ -19,6 +19,7 @@ yay -Sy --noconfirm \
 	dnsmasq \
        	docker \
 	docker-machine-driver-kvm2 \
+	git-crypt \
 	google-cloud-sdk \
 	flameshot \
 	kubectl-bin \
