@@ -1,3 +1,6 @@
 [submodule "vim/.vim/bundle/vim-sensible"]
 	path = vim/.vim/bundle/vim-sensible
 	url = git@github.com:tpope/vim-sensible.git
+[submodule "vim/.vim/bundle/vim-terraform"]
+	path = vim/.vim/bundle/vim-terraform
+	url = git@github.com:hashivim/vim-terraform.git
