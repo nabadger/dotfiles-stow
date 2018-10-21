@@ -3,6 +3,9 @@
 echo "Installing packages"
 
 sudo pacman -Sy --noconfirm \
+	bluez \
+	bluez-libs \
+	bluez-utils \
 	ebtables \
 	libvirt \
 	qemu-headless \
@@ -29,6 +32,7 @@ yay -Sy --noconfirm \
 	pcsclite \
 	powerline-fonts-git \
 	pwgen \
+	pulseaudio-module-bluetooth \
 	python-pipsi \
 	siege \
 	ranger \
@@ -41,7 +45,8 @@ yay -Sy --noconfirm \
 	stow \
 	urxvt-resize-font-git \
 	virt-manager \
-	visual-studio-code-bin
+	visual-studio-code-bin \
+	xclip
 
 
 pipsi install ansible          
