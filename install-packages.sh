@@ -12,6 +12,9 @@ sudo pacman -Sy --noconfirm \
 	rofi \
 	sysstat \
 	the_silver_searcher \
+	ttf-dejavu
+	ttf-font-icons \
+	ttf-inconsolata \
 	xtitle \
        	yay \
 	zsh
@@ -25,8 +28,8 @@ yay -Sy --noconfirm \
 	git-crypt \
 	google-cloud-sdk \
 	flameshot \
-	kubectl-bin \
-       	minikube \
+	#kubectl-bin \
+        minikube \
 	pass \
 	pavucontrol \
 	pcsclite \
@@ -49,4 +52,4 @@ yay -Sy --noconfirm \
 	xclip
 
 
-pipsi install ansible          
+pipsi install ansible
