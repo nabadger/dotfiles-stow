@@ -33,7 +33,7 @@ autoload -Uz promptinit
 promptinit
 prompt pure
 
-source .zprezto/modules/autosuggestions/init.zsh
+#source .zprezto/modules/autosuggestions/init.zsh
 
 # Customize exports
 export PATH="$HOME/.local/bin:$PATH"
