@@ -74,6 +74,9 @@ URxvt.termName: rxvt-256color
 URxvt.keysym.C-Down:  resize-font:smaller
 URxvt.keysym.C-Up:    resize-font:bigger
 
+URxvt.keysym.M-Down:        \033[1;3B
+URxvt.keysym.M-Up:          \033[1;3A
+
 Xcursor.size: 10
 
 
