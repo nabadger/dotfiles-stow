@@ -67,6 +67,7 @@ ZSH_THEME="afowler"
 plugins=(
   git
   kubectl
+  ssh-agent
   zsh-autosuggestions
 )
 
