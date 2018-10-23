@@ -2,4 +2,4 @@
 
 printf "Configuring dotfile symlinks"
 
-stow -t ${HOME} config dmenu gnupg profile screenlayout xresources zprezto wallpapers
+stow -t ${HOME} config dmenu gnupg profile screenlayout xresources wallpapers oh-my-zsh zshrc
