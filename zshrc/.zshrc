@@ -78,3 +78,7 @@ export LANG=en_US.UTF-8
 export EDITOR='vim'
 export ARCHFLAGS="-arch x86_64"
 export SSH_KEY_PATH="~/.ssh/rsa_id"
+export PATH="$HOME/go/bin:$HOME/.local/bin:$PATH"
+
+alias m="minikube"
+alias mstart="minikube start --vm-driver=kvm2 --memory=4096 --cpus=4"
