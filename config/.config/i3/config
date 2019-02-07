@@ -414,3 +414,4 @@ mode "$mode_gaps_outer" {
 
 # Custom exec
 exec --no-startup-id feh --bg-scale ~/.wallpapers/paper.jpg
+exec --no-startup-id pasystray
