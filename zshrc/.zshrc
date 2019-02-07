@@ -67,11 +67,15 @@ ZSH_THEME="afowler"
 plugins=(
   git
   kubectl
+  kube-ps1
   ssh-agent
   zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
+
+KUBE_PS1_SYMBOL_ENABLE=false
+PROMPT=$PROMPT'$(kube_ps1) '
 
 # User configuration
 export LANG=en_US.UTF-8
