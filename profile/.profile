@@ -26,3 +26,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export PATH=$HOME/.config/composer/vendor/bin:./vendor/bin:$PATH
 
 export DOTFILES=$HOME/dotfiles
+
+# Reqired for git-signing
+export GPG_TTY=$(tty)
