@@ -86,3 +86,4 @@ export PATH="$HOME/go/bin:$HOME/.local/bin:$PATH"
 
 alias m="minikube"
 alias mstart="minikube start --vm-driver=kvm2 --memory=4096 --cpus=4"
+eval $(thefuck --alias)
