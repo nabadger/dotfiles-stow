@@ -73,6 +73,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.profile
 
 KUBE_PS1_SYMBOL_ENABLE=false
 PROMPT=$PROMPT'$(kube_ps1) '
@@ -86,3 +87,7 @@ export PATH="$HOME/go/bin:$HOME/.local/bin:$PATH"
 
 alias m="minikube"
 alias mstart="minikube start --vm-driver=kvm2 --memory=4096 --cpus=4"
+alias tfswitch="tfswitch --bin=${HOME}/bin/terraform"
+alias tgswitch="tgswitch --bin=${HOME}/bin/terragrunt"
+
+eval $(thefuck --alias)
