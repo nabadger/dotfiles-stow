@@ -73,6 +73,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.profile
 
 KUBE_PS1_SYMBOL_ENABLE=false
 PROMPT=$PROMPT'$(kube_ps1) '
@@ -90,5 +91,4 @@ alias slack="slack --disable-gpu"
 alias chromium="chromium --disable-gpu"
 alias tfswitch="tfswitch -b ${HOME}/bin/terraform"
 alias tgswitch="tgswitch -b ${HOME}/bin/terragrunt"
-
 eval $(thefuck --alias)
