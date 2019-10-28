@@ -84,6 +84,11 @@ export ARCHFLAGS="-arch x86_64"
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 export PATH="$HOME/go/bin:$HOME/.local/bin:$PATH"
 
-alias m="minikube"
-alias mstart="minikube start --vm-driver=kvm2 --memory=4096 --cpus=4"
+# App workarounds
+alias code="code --disable-gpu"
+alias slack="slack --disable-gpu"
+alias chromium="chromium --disable-gpu"
+alias tfswitch="tfswitch -b ${HOME}/bin/terraform"
+alias tgswitch="tgswitch -b ${HOME}/bin/terragrunt"
+
 eval $(thefuck --alias)

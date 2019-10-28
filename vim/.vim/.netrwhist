@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/nb/work/gitlab/mintel/satoshi/infrastructure/ansible-satoshi/vault/prod/ingress'
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/nb/dotfiles/config/.config/i3'
+let g:netrw_dirhist_4='/home/nb/go/src/github.com/nabadger/k8s-crash-informer/pkg/chat'
+let g:netrw_dirhist_3='/home/nb/go/src/github.com/nabadger/k8s-crash-informer/pkg'
+let g:netrw_dirhist_2='/home/nb/go/src/github.com/nabadger/k8s-crash-informer/pkg/chat'
+let g:netrw_dirhist_1='/home/nb/go/src/github.com/nabadger/kubedog/pkg/tracker/deployment'
+let g:netrw_dirhist_0='/home/nb/work/gitlab/mintel/satoshi/experimental/fluxcloud-filebeat/webhook-go/templates'
+let g:netrw_dirhist_9='/home/nb/work/gitlab/mintel/satoshi/experimental/fluxcloud-filebeat/webhook-go'
+let g:netrw_dirhist_8='/home/nb/work/gitlab/mintel/satoshi/experimental/fluxcloud-filebeat/webhook-go/webhook'
+let g:netrw_dirhist_7='/home/nb/work/gitlab/mintel/satoshi/kubernetes/kustomize/.gitlab'
+let g:netrw_dirhist_6='/home/nb/go/src/github.com/nabadger/monitoring-mixins/manifests'
