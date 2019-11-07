@@ -91,4 +91,5 @@ alias slack="slack --disable-gpu"
 alias chromium="chromium --disable-gpu"
 alias tfswitch="tfswitch -b ${HOME}/bin/terraform"
 alias tgswitch="tgswitch -b ${HOME}/bin/terragrunt"
+alias sterns="stern '.*' -s5s -n $1"
 eval $(thefuck --alias)
